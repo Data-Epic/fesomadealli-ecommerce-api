@@ -1,0 +1,28 @@
+[project]
+name = "e-commerce-api"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "fesomadealli",email = "fesomade.alli@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "sqlalchemy (>=2.0.40,<3.0.0)",
+    "sqlalchemy-utils (>=0.41.2,<0.42.0)",
+    "black (>=25.1.0,<26.0.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "polars (>=1.26.0,<2.0.0)",
+    "psycopg2 (>=2.9.10,<3.0.0)",
+    "python-dotenv (>=1.1.0,<2.0.0)",
+    "fastapi (>=0.115.12,<0.116.0)",
+    "uvicorn (>=0.34.1,<0.35.0)"
+]
+
+[tool.poetry]
+packages = [{include = "e_commerce_api", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
