@@ -9,7 +9,7 @@ routes.py contains the underlying function that powers the main script for what 
 main.py is the main script that contains fastapi functions
 
 
-
+```
    ├── database/
     │   ├── __init__.py
     │   ├── models.py
@@ -24,7 +24,7 @@ main.py is the main script that contains fastapi functions
     │   ├── clean.py (*Script to clean CSV before it goes into PostgreSQL*)
     │   ├── insights.py (*Script to generate aggregatd insights from CSV with SQLAlchemy*)
     │   ├── load_data.py (*Script to load CSV into PostgreSQL*)
-
+```
 
 
 # FULL PROJECT BRIEF
@@ -209,5 +209,6 @@ Develop the following REST API endpoints:
 | **Optimization** | Indexing improves query speed. |
 | **Code Quality** | Code is well-structured and documented. |
 | **Git Usage** | Proper commit messages and repository organization. |
+
 
 
